@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weather App</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="head">
+      <nav class="navbar">
+        <h1 id="myapp">My Weather APP</h1>
+        <input type="text" id="search" placeholder="Enter Your City">
+        <button id="btn">Click 👊</button>
+
+      </nav>
+
+      <h2 class="nameofcity">City Name: <span id="cityname"></span></h2>
+      <h2>Tempreture: </h2>
+      <span id="temp">52 <strong>%c</strong></span>
+
+    </header>
+    <div class="data">
+      <label> Cloud ⛅: <p id="cloud_pct"></p></label>
+      <label> Feels ⛄: <p id="feels_like"></p></label>
+      <label> Humidity 😖: <p id="humidity"></p></label>
+      <label> Max Temp 🔥: <p id="max_temp"></p></label>
+      <label> Min Temp🌫: <p id="min_temp"></p></label>
+      <label>Sunset 🌇: <p id="sunset"></p></label>
+      <label>Sunrise 🌄: <p id="sunrise"></p></label>
+      <label> Wind Deg💨: <p id="wind_degrees"></p></label>
+      <label> Wind Speed🎐: <p id="wind_speed"></p></label>
+    </div>
+  </div>
+  <!-- </div> -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

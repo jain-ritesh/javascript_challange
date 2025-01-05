@@ -1,0 +1,96 @@
+  @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Serif', serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+html{
+    
+    overflow: hidden;
+}
+body{
+    background: #99faf198;
+}
+h1{
+}
+h2{
+    font-size: 1.2rem;
+}
+#myapp{
+    /* margin: 100%; */
+    
+    font-size: 1rem;
+    width: 100vh;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+.container{
+height: 700px;
+width: 400px;   
+background: #64f88b97; 
+margin-top: 20px ;
+padding: 10px 20px 10px 20px;
+border-radius: 8px;
+border: 1px solid palevioletred;
+display: block;
+align-items: center;
+text-align: center;
+}
+#search{
+    padding: 5px;
+    text-align: center;
+    border-radius: 8px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#btn{
+    float: right;
+    padding: 5px;
+    border-radius: 8px;
+}
+#btn:hover{
+    background: #ffd9a7;
+}
+#temp{
+    font-size: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.data{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    /* flex-direction: colu; */
+    justify-content: center;
+}
+
+label{
+    padding: 5px;
+    border: 1px solid rgba(10, 10, 11, 0.242);
+    border-radius: 10px;
+    /* margin: 10px; */
+    margin: 5px;
+    width: 8rem;
+    text-align: center;
+}
+.nameofcity{
+    /* border: 1px solid red; */
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    background: #13111134;
+    color: rgba(37, 36, 83, 0.792);
+}

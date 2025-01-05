@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(128, 251, 239);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+.container{
+   text-align: center;
+}
+.main{
+margin: 20px;
+padding: 10px;
+border: none;
+background: rgba(129, 142, 255, 0.884);
+border-radius: 8px;
+box-shadow: 1px 2px 8px black;
+}
+input{
+    margin-left: 5px;
+}
